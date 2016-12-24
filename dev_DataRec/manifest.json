@@ -1,0 +1,18 @@
+{
+    "name": "DataReceive",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "A message passing example of communicating between DevTools and an inspected page",
+
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "permissions": [
+        "tabs", 
+        "http://*/*",
+        "https://*/*"
+    ],
+}
